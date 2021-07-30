@@ -13,11 +13,36 @@ body {
 }
 
 .login-container {
-  background-color: grey;
   width: 350px;
   height: 90%;
   min-height: 800px;
   margin: auto;
-  padding: 20px;
+  padding: 0 50px 50px;
   box-sizing: border-box;
+  text-align: center;
+}
+
+.login-container img {
+  width: 85%;
+}
+
+.login-container input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 11px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+.login-container input[type="submit"] {
+  padding: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+  margin: 15px 0;
 }
